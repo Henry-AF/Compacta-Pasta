@@ -6,7 +6,7 @@ fi
 
 mkdir -p "$1"
 
-tar -cvf "Pasta_Compactada.tar" "$1"
+tar -cvf "$1.tar" "$1"
 
 echo "A pasta '$1' foi criada e compactada como '$1.tar'."
 
